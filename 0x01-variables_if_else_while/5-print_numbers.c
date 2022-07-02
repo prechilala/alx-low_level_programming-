@@ -2,7 +2,6 @@
 
 /**
  * main - to carry out tasks
- * 
  * Return: Always 0 (success)
  */
 int main(void)
