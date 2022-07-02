@@ -1,26 +1,24 @@
 #include <stdio.h>
 
 /**
- * main - prints the alphabet in lowercase,
+ * main - to carry out tasks
  * Description - main value
  * followed by new line
  * Return: Always 0 (success)
  */
 int main(void)
 {
-	char ch = 'a';
+	char low, e, q;
 
-	while (ch <= 'z');
+	e = 'e';
+	q = 'q';
+
+	for (low = 'a'; low <= 'z'; low++)
 	{
-	if (ch != 'e' && ch != 'q');
-	}
-	{
-		putchar(ch);
-	}
-	{
-		ch++;
+		if (low != e && low != q)
+			putchar(low);
 	}
 	putchar('\n');
 	return (0);
-}
 
+}
