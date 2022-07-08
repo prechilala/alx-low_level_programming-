@@ -3,7 +3,6 @@
 /**
  * print_line -> this is a function print a line
  * @n: an integer parameter
- * Return: always 0
  */
 
 void print_line(int n);
