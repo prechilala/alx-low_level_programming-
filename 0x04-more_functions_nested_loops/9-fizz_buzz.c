@@ -28,6 +28,10 @@ int main(void)
 		{
 			printf("%d", i);
 		}
+		else
+		{
+			printf("%d", i);
+		}
 	}
 	printf("\n");
 
