@@ -1,5 +1,5 @@
-#include <stdio.h>
 #include "main.h"
+#include <stdio.h>
 
 /**
  * main -> prints the numbers from 1 to 100'
@@ -30,10 +30,8 @@ int main(void)
 		}
 		else if (i == 1)
 		{
-			printf("%d", i);
+			printf("%d ", i);
 		}
-		
-		
 	}
 	printf("\n");
 
