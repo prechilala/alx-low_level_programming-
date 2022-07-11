@@ -7,7 +7,6 @@
 
 void rev_string(char *s)
 {
-	"pre" - > "erp"
 	char tmp;
 	int i, length1, length2;
 
