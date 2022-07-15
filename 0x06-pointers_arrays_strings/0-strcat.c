@@ -4,18 +4,25 @@
  * _strcat -> a function strcat
  * @dest: first parameter
  * @src: second parameter
- * Return: a string 
+ * Return: a string
 */
 char *_strcat(char *dest, char *src)
 {
-	char *temp = dest;
+	int count1 = 0, count2 = 0;
 
-	while (*dest)
-		dest++;
+	while (*(dest + count1) != '\0')
+	{
+		count1++;
+	}
 
-	while (*src)
-		*dest++ = *src++;
+	while (count2 >= 0)
+	{
+		*(dest + count1) = *(src + count2);
+		if (*(src + count2) == '\0')
+			breat;
+		count1++;
+		count2++;
 
-	dest = '\0';
-	return (temp);
+	}
+	return (dest);
 }
