@@ -2,19 +2,19 @@
 
 /**
  * string_toupper - a function that changes a string to upper case
- * @x: an input string
+ * @s: an input string
  * Return: char pointer to converted string
 */
 
-char *string_toupper(char *x)
+char *string_toupper(char *s)
 {
-	int i = 0;
+	int count = 0;
 
-	while (x[i])
+	while (*(s + count) != '\0')
 	{
-		if (x[i] >= 97 && x[i] <= 122)
-			x[i] = x[i] - 32;
-		i++;
+		if ((*(s + count) >= 97) && (*(s + count) <= 122))
+			*(s + count) = *(s + count) - 32;
+		count++;
 	}
-	return (x);
+	return (s);
 }
