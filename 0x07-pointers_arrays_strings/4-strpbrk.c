@@ -20,8 +20,8 @@ char *_strpbrk(char *s, char *accept)
 				return (s);
 			accept++;
 		}
-		accept = start
-		S++
+		accept = start;
+		S++;
 	}
-	return (null);
+	return (NULL);
 }
