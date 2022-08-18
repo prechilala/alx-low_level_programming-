@@ -12,16 +12,19 @@ void print_binary(unsigned long int n)
 	if (n == 0)
 	{
 		_putchar('0');
+		_putchar('\n');
 		return;
 	}
 	while (max)
 	{
 		if (flag == 1 && (n & max) == 0)
 			_putchar('0');
+			_putchar('\n');
 		else if ((n & max) != 0)
 		{
 			_putchar('1');
 			flag = 1;
+			_putchar('\n');
 		}
 		max >>= 1;
 	}
